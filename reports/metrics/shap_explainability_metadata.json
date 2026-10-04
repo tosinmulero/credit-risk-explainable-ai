@@ -1,0 +1,10 @@
+{
+  "completed_at_utc": "2026-10-04T15:47:57.708047+00:00",
+  "model": "Tuned XGBoost",
+  "method": "TreeSHAP",
+  "validation_rows_explained": 6000,
+  "transformed_feature_count": 47,
+  "semantic_feature_count": 40,
+  "selected_threshold": 0.145,
+  "test_set_accessed": false
+}

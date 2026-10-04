@@ -1,0 +1,10 @@
+{
+  "rows": 30000,
+  "columns_after_engineering": 48,
+  "candidate_model_features": 40,
+  "train_rows": 18000,
+  "validation_rows": 6000,
+  "test_rows": 6000,
+  "random_state": 42,
+  "validation_passed": true
+}

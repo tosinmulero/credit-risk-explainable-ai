@@ -1,0 +1,9 @@
+{
+  "completed_at_utc": "2026-10-04T15:48:07.423437+00:00",
+  "reference_dataset": "train",
+  "comparison_dataset": "validation",
+  "metric": "PSI",
+  "high_drift_feature_count": 0,
+  "moderate_drift_feature_count": 0,
+  "test_set_used_for_drift": false
+}

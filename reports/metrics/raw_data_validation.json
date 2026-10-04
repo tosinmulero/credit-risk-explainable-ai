@@ -1,0 +1,41 @@
+{
+  "validation_passed": true,
+  "dataset": {
+    "rows": 30000,
+    "columns": 25,
+    "feature_count": 23,
+    "target_name": "Y",
+    "target_values": [
+      0,
+      1
+    ]
+  },
+  "data_quality": {
+    "missing_feature_values": 0,
+    "missing_target_values": 0,
+    "duplicate_feature_rows": 56,
+    "duplicate_full_rows": 0,
+    "duplicate_identifier_rows": 0
+  },
+  "target_distribution": {
+    "class_counts": {
+      "0": 23364,
+      "1": 6636
+    },
+    "non_default_count": 23364,
+    "default_count": 6636,
+    "default_rate": 0.2212,
+    "non_default_to_default_ratio": 3.5208
+  },
+  "checks": {
+    "expected_row_count": true,
+    "expected_feature_count": true,
+    "single_target_column": true,
+    "binary_target_0_1": true,
+    "no_missing_feature_values": true,
+    "no_missing_target_values": true,
+    "all_features_numeric": true,
+    "all_numeric_values_finite": true,
+    "identifier_values_unique": true
+  }
+}

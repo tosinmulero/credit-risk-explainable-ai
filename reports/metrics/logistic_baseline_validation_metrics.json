@@ -1,0 +1,29 @@
+{
+  "model_name": "logistic_regression_baseline",
+  "model_family": "LogisticRegression",
+  "trained_at_utc": "2026-10-04T15:11:06.171727+00:00",
+  "random_state": 42,
+  "threshold": 0.5,
+  "training_rows": 18000,
+  "validation_rows": 6000,
+  "candidate_features": 40,
+  "sklearn_version": "1.9.1",
+  "test_set_accessed": false,
+  "metrics": {
+    "threshold": 0.5,
+    "observations": 6000,
+    "default_prevalence": 0.22116666666666668,
+    "accuracy": 0.8186666666666667,
+    "roc_auc": 0.7689179820711616,
+    "average_precision_pr_auc": 0.5266463551191573,
+    "precision": 0.6796992481203008,
+    "recall": 0.34061793519216277,
+    "f1": 0.4538152610441767,
+    "log_loss": 0.43909257296469484,
+    "brier_score": 0.13711368113471686,
+    "true_negatives": 4460,
+    "false_positives": 213,
+    "false_negatives": 875,
+    "true_positives": 452
+  }
+}

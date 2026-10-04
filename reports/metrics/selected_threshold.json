@@ -1,0 +1,43 @@
+{
+  "completed_at_utc": "2026-10-04T15:31:43.177439+00:00",
+  "model": "selected_probability_model",
+  "selection_dataset": "validation",
+  "false_positive_cost": 1.0,
+  "false_negative_cost": 5.0,
+  "selected_threshold": 0.145,
+  "threshold_050_metrics": {
+    "threshold": 0.5,
+    "true_negatives": 4448,
+    "false_positives": 225,
+    "false_negatives": 849,
+    "true_positives": 478,
+    "precision": 0.6799431009957326,
+    "recall": 0.3602110022607385,
+    "specificity": 0.9518510592766959,
+    "f1": 0.47093596059113296,
+    "predicted_positive_rate": 0.11716666666666667,
+    "false_positive_cost": 1.0,
+    "false_negative_cost": 5.0,
+    "total_cost_units": 4470.0,
+    "cost_per_1000": 745.0
+  },
+  "selected_threshold_metrics": {
+    "threshold": 0.145,
+    "true_negatives": 2694,
+    "false_positives": 1979,
+    "false_negatives": 238,
+    "true_positives": 1089,
+    "precision": 0.35495436766623206,
+    "recall": 0.8206480783722683,
+    "specificity": 0.5765033169270276,
+    "f1": 0.49556313993174056,
+    "predicted_positive_rate": 0.5113333333333333,
+    "false_positive_cost": 1.0,
+    "false_negative_cost": 5.0,
+    "total_cost_units": 3169.0,
+    "cost_per_1000": 528.1666666666666
+  },
+  "illustrative_cost_reduction": 1301.0,
+  "illustrative_cost_reduction_pct": 0.2910514541387025,
+  "test_set_accessed": false
+}

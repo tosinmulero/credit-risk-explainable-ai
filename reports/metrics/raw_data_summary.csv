@@ -1,0 +1,11 @@
+metric,value
+rows,30000.0
+feature_count,23.0
+missing_feature_values,0.0
+missing_target_values,0.0
+duplicate_feature_rows,56.0
+duplicate_identifier_rows,0.0
+non_default_count,23364.0
+default_count,6636.0
+default_rate,0.2212
+non_default_to_default_ratio,3.5207956600361663

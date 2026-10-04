@@ -1,0 +1,8 @@
+{
+  "run_id": "5bae17c3daf241a485b8788dfff8c1a3",
+  "experiment_id": "1",
+  "experiment_name": "Credit Risk Intelligence",
+  "tracking_uri": "sqlite:///C:/Users/OLUWATOSIN OLUWASEUN/Downloads/credit-risk-explainable-ai/mlflow.db",
+  "backend": "SQLite",
+  "final_test_logged": true
+}

@@ -1,0 +1,9 @@
+{
+  "completed_at_utc": "2026-10-04T15:48:00.274656+00:00",
+  "audit_dimensions": [
+    "SEX_GROUP",
+    "AGE_BAND"
+  ],
+  "selected_threshold": 0.145,
+  "test_set_accessed": false
+}

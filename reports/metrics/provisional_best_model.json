@@ -1,0 +1,10 @@
+{
+  "selected_at_utc": "2026-10-04T15:18:00.023117+00:00",
+  "selection_stage": "untuned_validation_benchmark",
+  "primary_metric": "average_precision_pr_auc",
+  "secondary_metric": "roc_auc",
+  "provisional_best_model": "XGBoost",
+  "validation_pr_auc": 0.5546761603818315,
+  "validation_roc_auc": 0.7866873319141162,
+  "test_set_accessed": false
+}

@@ -1,0 +1,17 @@
+{
+  "completed_at_utc": "2026-10-04T15:28:50.436332+00:00",
+  "base_model": "Tuned XGBoost",
+  "calibration_folds": 5,
+  "selection_primary_metric": "brier_score",
+  "selection_secondary_metric": "log_loss",
+  "selected_probability_variant": "Uncalibrated tuned XGBoost",
+  "selected_metrics": {
+    "roc_auc": 0.7889367014181905,
+    "average_precision_pr_auc": 0.562912628153004,
+    "log_loss": 0.4242947995662689,
+    "brier_score": 0.13317430019378662,
+    "expected_calibration_error": 0.006266203951090575,
+    "maximum_calibration_error": 0.035545911991371304
+  },
+  "test_set_accessed": false
+}

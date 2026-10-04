@@ -1,0 +1,25 @@
+{
+  "completed_at_utc": "2026-10-04T15:48:02.463530+00:00",
+  "evaluation_policy": "single_final_holdout_evaluation",
+  "selected_probability_variant": "Uncalibrated tuned XGBoost",
+  "metrics": {
+    "observations": 6000,
+    "default_prevalence": 0.22116666666666668,
+    "selected_threshold": 0.145,
+    "roc_auc": 0.7834428923648835,
+    "average_precision_pr_auc": 0.56218917832924,
+    "accuracy": 0.6245,
+    "precision": 0.34908735332464147,
+    "recall": 0.8070836473247928,
+    "f1": 0.48737201365187716,
+    "log_loss": 0.4270178973674774,
+    "brier_score": 0.13409511744976044,
+    "expected_calibration_error": 0.0133156329492728,
+    "true_negatives": 2676,
+    "false_positives": 1997,
+    "false_negatives": 256,
+    "true_positives": 1071
+  },
+  "test_set_accessed": true,
+  "model_selection_changed_after_test": false
+}

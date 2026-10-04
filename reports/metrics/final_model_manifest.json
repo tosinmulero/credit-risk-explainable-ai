@@ -1,0 +1,9 @@
+{
+  "model_artifact": "models/selected_probability_model.joblib",
+  "threshold_artifact": "reports/metrics/selected_threshold.json",
+  "feature_config": "reports/metrics/primary_model_features.json",
+  "final_test_metrics": "reports/metrics/final_test_metrics.json",
+  "selected_threshold": 0.145,
+  "selected_probability_variant": "Uncalibrated tuned XGBoost",
+  "test_set_accessed": true
+}

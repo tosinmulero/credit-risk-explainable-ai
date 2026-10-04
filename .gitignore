@@ -1,0 +1,70 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+.env
+.DS_Store
+Thumbs.db
+
+# Raw and transformed datasets
+data/raw/*
+!data/raw/.gitkeep
+
+data/interim/*
+!data/interim/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained model binaries
+models/*
+!models/.gitkeep
+
+# MLflow local artefacts
+mlruns/
+mlartifacts/
+
+# Local application artefacts
+.streamlit/secrets.toml
+# Local databases and experiment stores
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage outputs
+.coverage
+coverage.xml
+htmlcov/
+
+# Python build artefacts
+build/
+dist/
+*.egg-info/
+
+# IDE / local editor files
+.vscode/
+.idea/
+
+# Temporary logs
+*.log
+
+# Development helper files
+README_REMAINING_STAGES.md
+run_stages_11_to_20.ps1
+stage5_error_log.txt
+
+# Row-level model outputs
+reports/metrics/*_predictions.csv
+reports/metrics/split_assignments.csv
+
+# Local MLflow database
+mlflow.db
+*.db
+*.sqlite
+*.sqlite3
