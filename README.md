@@ -106,41 +106,40 @@ The tuned XGBoost model was compared with uncalibrated, isotonic and sigmoid pro
 ## 🧩 End-to-End Architecture
 
 ~~~mermaid
-flowchart TD
-    A["UCI Credit Default Data"] --> B["Schema Validation & Data Quality"]
-    B --> C["Semantic Feature Engineering"]
+graph TD
+    A[UCI Credit Default Data] --> B[Schema Validation and Data Quality]
+    B --> C[Semantic Feature Engineering]
 
-    C --> D["Train 60%"]
-    C --> E["Validation 20%"]
-    C --> F["Sealed Test 20%"]
+    C --> D[Train Split]
+    C --> E[Validation Split]
+    C --> F[Sealed Test Split]
 
-    D --> G["Logistic Regression"]
-    D --> H["Random Forest"]
-    D --> I["LightGBM"]
-    D --> J["XGBoost"]
+    D --> G[Logistic Regression]
+    D --> H[Random Forest]
+    D --> I[LightGBM]
+    D --> J[XGBoost]
 
-    G --> K["Model Benchmarking"]
+    G --> K[Model Benchmarking]
     H --> K
     I --> K
     J --> K
 
-    K --> L["Optuna XGBoost Tuning"]
-    L --> M["Probability Calibration Assessment"]
-    M --> N["Cost-Sensitive Threshold Optimisation"]
+    K --> L[Optuna XGBoost Tuning]
+    L --> M[Probability Calibration Assessment]
+    M --> N[Cost Sensitive Threshold Optimisation]
 
-    N --> O["SHAP Explainability"]
-    N --> P["Subgroup Audit"]
+    N --> O[SHAP Explainability]
+    N --> P[Subgroup Audit]
 
-    O --> Q["Frozen Model + Threshold"]
+    O --> Q[Frozen Model and Threshold]
     P --> Q
-    Q --> F
-    F --> R["One-Time Final Holdout Evaluation"]
+    Q --> R[Final Sealed Holdout Evaluation]
 
-    R --> S["MLflow"]
-    R --> T["FastAPI"]
-    R --> U["Streamlit"]
-    R --> V["Drift Monitoring"]
-    R --> W["Pytest + GitHub Actions"]
+    R --> S[MLflow Tracking]
+    R --> T[FastAPI Inference]
+    R --> U[Streamlit Dashboard]
+    R --> V[Drift Monitoring]
+    R --> W[Pytest and GitHub Actions]
 ~~~
 
 ---
