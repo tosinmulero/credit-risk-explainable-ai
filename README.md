@@ -26,6 +26,12 @@
 
 ---
 
+## Recruiter quick review
+
+**[Read the dedicated portfolio case study](https://tosinmulero.github.io/data-analytics-portfolio/case-studies/credit-risk-explainable-ai.html)** · **[Open the evidence guide](docs/RECRUITER_GUIDE.md)** · [View a project visual](reports/figures/21_shap_global_importance.png)
+
+The evidence guide links the business question, documented results, methodology and source artefacts without relying on unverified claims.
+
 ## 🚀 Executive Summary
 
 Credit-risk modelling is not just a classification task. A decision-grade workflow must also address probability quality, operating thresholds, model explainability, subgroup behaviour, monitoring and reproducibility.
